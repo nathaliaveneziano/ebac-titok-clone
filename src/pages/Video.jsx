@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import BreckerVideo from '../assets/videos/brecker2.mp4';
+import VideoFooter from './components/footer/VideoFooter';
 import './Video.css';
 
 function Video() {
@@ -23,7 +23,9 @@ function Video() {
         ref={videoRef}
         loop
         onClick={handleStart}
-        src={BreckerVideo}></video>
+        src='https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/brecker2.mp4'></video>
+      {/* Sidebar */}
+      <VideoFooter />
     </div>
   );
 }
