@@ -32,10 +32,41 @@ html {
   scrollbar-width: none;
 }
 
+.logo,
+.app__logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.logo {
+  display: block;
+  width: auto;
+  height: 75px;
+  -webkit-filter: drop-shadow(0 0 3px #aaa);
+  filter: drop-shadow(0 0 3px #aaa);
+}
+
+.app__logo {
+  display: none;
+  width: 50px;
+  height: auto;
+}
+
 /* media queries */
 @media only screen and (max-width: 440px) {
   .app__videos {
     width: 100%;
     border-radius: 0;
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .app__logo {
+    display: block;
   }
 }

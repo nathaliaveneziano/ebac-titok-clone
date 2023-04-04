@@ -3,6 +3,8 @@ import Video from './pages/Video';
 import './App.css';
 import db from './config/firebase';
 import { collection, getDocs } from 'firebase/firestore/lite';
+import logo from './logo.png';
+import logo2 from './logo2.png';
 
 function App() {
   let maxHeight;
@@ -26,7 +28,9 @@ function App() {
 
   return (
     <div className='App' style={{ maxHeight: maxHeight + 'px' }}>
+      <img src={logo2} alt='Logo do TikTok' className='logo' />
       <div className='app__videos'>
+        <img src={logo} alt='Logo do TikTok' className='app__logo' />
         {videos.map((video) => {
           return (
             <Video
