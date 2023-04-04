@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# Projeto - Tik Tok Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub repo size](https://img.shields.io/github/repo-size/nathaliaveneziano/ebac-titok-clone?style=for-the-badge)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/nathaliaveneziano/ebac-titok-clone?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/nathaliaveneziano/ebac-titok-clone?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/nathaliaveneziano/ebac-titok-clone?style=for-the-badge)
+![Status project](https://img.shields.io/badge/Status-Concluído-2D963D?style=for-the-badge)
 
-## Available Scripts
+<img src="image.png" alt="Demonstração do projeto">
 
-In the project directory, you can run:
+## Tabela de conteúdos
 
-### `npm start`
+- [Sobre o projeto](#-sobre-o-projeto)
+- [Tecnologias](#-tecnologias)
+  - [WebSite](#website)
+  - [Utilitários](#utilitarios)
+- [Layout](#-layout)
+  - [Mobile](#mobile)
+  - [Web](#web)
+- [Como executar o projeto](#-como-executar-o-projeto)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Rodando a aplicação web](#user-content--rodando-a-aplicação-web)
+- [Autor](#-autor)
+- [Licença](#user-content--licença)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💻 Sobre o projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Projeto desenvolvido durante a Jornada Dev da EBAC entre os dias 28/03 e 04/04, onde recriamos o front-end do Tik Tok utilizando as tecnologias mais utilizadas no mercado.
 
-### `npm test`
+Nele, vemos dois vídeos que podemos dar pley / pause ao clicar nele. Exibe as informações estáticas de compartilhamento, comentários e likes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Também foi realizado alguns efeitos de animação via CSS e JS para parecer mais realista.
 
-### `npm run build`
+## 🛠 Tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### **Website**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **[React](https://reactjs.org/)**
+- **[Firebase](https://reactjs.org/)**
 
-### `npm run eject`
+#### **Utilitários**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[Dotenv Official](https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode)**
+- Ícones: **[Material Icons](https://mui.com/material-ui/material-icons/)**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎨 Layout
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Mobile
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Mobile](mobile.png)
 
-## Learn More
+### Web
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Website](image.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Como executar o projeto
 
-### Code Splitting
+### **Pré-requisitos**
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/).
+- [VSCode](https://code.visualstudio.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### **Rodando a aplicação web**
 
-### Analyzing the Bundle Size
+```bash
+# Clone este repositório (HTTPS):
+$ git clone https://github.com/nathaliaveneziano/ebac-titok-clone.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Clone este repositório (SSH):
+$ git clone git@github.com:nathaliaveneziano/ebac-titok-clone.git
 
-### Making a Progressive Web App
+ # Acesse a pasta do projeto no terminal:
+$ cd ebac-titok-clone
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Instale as dependências
+$ npm install
 
-### Advanced Configuration
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+```
+OBS.: A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🦸 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/36680660?v=4" width="250px;" alt=""/>
+<br />
+Nathália Veneziano
+<br />
 
-### `npm run build` fails to minify
+[![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/nathalia.veneziano.developer)
+[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nathalia.veneziano.developer/)
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nathalia-veneziano)
+[![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/nath_veneziano)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Nathália Veneziano 👋🏽 [Entre em contato!](https://www.linkedin.com/in/nathalia-veneziano)
