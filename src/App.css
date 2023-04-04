@@ -31,3 +31,11 @@ html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* media queries */
+@media only screen and (max-width: 440px) {
+  .app__videos {
+    width: 100%;
+    border-radius: 0;
+  }
+}
